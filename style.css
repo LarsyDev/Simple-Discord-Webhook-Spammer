@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    margin: 1em 0;
+}
+
+main p {
+    margin: 1em;
+}
+
+code {
+    box-sizing: border-box;
+    border: 1px solid #111;
+    padding: 1em;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+input, button {
+    border: 1px solid #222;
+    background-color: #111;
+    color: white;
+    display: inline-block;
+    margin: 0.25em;
+}
+
+button:disabled,
+button[disabled]{
+    opacity: 0.5;
+}
